@@ -9,7 +9,7 @@ NOTE: Sometimes if ran on a Windows OS, the 'python' and 'python3' commands will
 go into 'App Execution Aliases' and turn any related to Python into the 'off' state. This should allow for the run command to work.
 
 # How it works
-When run, you will be prompted to enter a command from a list of working commands. 'quit' will exit the program, and 'help' will restate instructions.
+When ran, you will be prompted to enter a command from a list of working commands. 'quit' will exit the program, and 'help' will restate instructions.
 If you first type 'read', it will enter receipt entering mode, and you will then be prompted to enter the path to the receipt JSON file RELATIVE TO 
 YOUR CURRENT FILE LOCATION. This will then create a 16 character alphanumeric ID for this receipt, save it under ./receipts/process/{ID}.json. 
 It will also create a file in directory ./receipts/{ID}/points.json that contains the points received for that receipt.
